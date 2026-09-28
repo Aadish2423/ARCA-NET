@@ -1,0 +1,103 @@
+Device: cpu
+Extracting core (320-dim) + 7 advanced-family features for RAVDESS...
+Found 1431 files
+  200/1431  (97s elapsed, ~599s remaining)
+  400/1431  (196s elapsed, ~504s remaining)
+  600/1431  (279s elapsed, ~387s remaining)
+  800/1431  (354s elapsed, ~279s remaining)
+  1000/1431  (419s elapsed, ~180s remaining)
+  1200/1431  (484s elapsed, ~93s remaining)
+  1400/1431  (553s elapsed, ~12s remaining)
+Extracted 1431 samples in 564s
+Cached to C:\Users\aadis\Desktop\Final Year\testing\testing\ablation_features_cache.pth
+Train: 1144  Test: 287
+Total configs to run: 29
+
+[1/29] Running config: baseline
+  Fine Acc: 0.7038  Coarse Acc: 0.7909  (38.3s)
+
+[2/29] Running config: koopman
+  Fine Acc: 0.7003  Coarse Acc: 0.7909  (38.3s)
+
+[3/29] Running config: gsp
+  Fine Acc: 0.6934  Coarse Acc: 0.7735  (37.6s)
+
+[4/29] Running config: tda
+  Fine Acc: 0.7038  Coarse Acc: 0.7875  (37.9s)
+
+[5/29] Running config: hamiltonian
+  Fine Acc: 0.7178  Coarse Acc: 0.7875  (37.4s)
+
+[6/29] Running config: rqa
+  Fine Acc: 0.7073  Coarse Acc: 0.7700  (37.1s)
+
+[7/29] Running config: visibility_graph_v2
+  Fine Acc: 0.7003  Coarse Acc: 0.7770  (38.3s)
+
+[8/29] Running config: info_geometry
+  Fine Acc: 0.7143  Coarse Acc: 0.7875  (37.8s)
+
+[9/29] Running config: koopman+gsp
+  Fine Acc: 0.7003  Coarse Acc: 0.7666  (42.5s)
+
+[10/29] Running config: koopman+tda
+  Fine Acc: 0.6969  Coarse Acc: 0.7875  (37.5s)
+
+[11/29] Running config: koopman+hamiltonian
+  Fine Acc: 0.7003  Coarse Acc: 0.7561  (39.0s)
+
+[12/29] Running config: koopman+rqa
+  Fine Acc: 0.6969  Coarse Acc: 0.7909  (37.4s)
+
+[13/29] Running config: koopman+visibility_graph_v2
+  Fine Acc: 0.7003  Coarse Acc: 0.7979  (37.0s)
+
+[14/29] Running config: koopman+info_geometry
+  Fine Acc: 0.7073  Coarse Acc: 0.7944  (37.5s)
+
+[15/29] Running config: gsp+tda
+  Fine Acc: 0.7317  Coarse Acc: 0.7909  (37.7s)
+
+[16/29] Running config: gsp+hamiltonian
+  Fine Acc: 0.7003  Coarse Acc: 0.7735  (37.7s)
+
+[17/29] Running config: gsp+rqa
+  Fine Acc: 0.7247  Coarse Acc: 0.8223  (36.8s)
+
+[18/29] Running config: gsp+visibility_graph_v2
+  Fine Acc: 0.7387  Coarse Acc: 0.8014  (39.4s)
+
+[19/29] Running config: gsp+info_geometry
+  Fine Acc: 0.6969  Coarse Acc: 0.7770  (37.5s)
+
+[20/29] Running config: tda+hamiltonian
+  Fine Acc: 0.7143  Coarse Acc: 0.7596  (37.7s)
+
+[21/29] Running config: tda+rqa
+  Fine Acc: 0.7352  Coarse Acc: 0.7979  (37.7s)
+
+[22/29] Running config: tda+visibility_graph_v2
+  Fine Acc: 0.7003  Coarse Acc: 0.8014  (37.5s)
+
+[23/29] Running config: tda+info_geometry
+  Fine Acc: 0.6969  Coarse Acc: 0.7840  (36.6s)
+
+[24/29] Running config: hamiltonian+rqa
+  Fine Acc: 0.7526  Coarse Acc: 0.8188  (37.5s)
+
+[25/29] Running config: hamiltonian+visibility_graph_v2
+  Fine Acc: 0.7352  Coarse Acc: 0.8049  (37.8s)
+
+[26/29] Running config: hamiltonian+info_geometry
+  Fine Acc: 0.7143  Coarse Acc: 0.7700  (37.6s)
+
+[27/29] Running config: rqa+visibility_graph_v2
+  Fine Acc: 0.7003  Coarse Acc: 0.7944  (38.5s)
+
+[28/29] Running config: rqa+info_geometry
+  Fine Acc: 0.7247  Coarse Acc: 0.7909  (37.9s)
+
+[29/29] Running config: visibility_graph_v2+info_geometry
+  Fine Acc: 0.7143  Coarse Acc: 0.7805  (39.3s)
+
+All configs complete. Results saved to C:\Users\aadis\Desktop\Final Year\testing\testing\results\ablation_study\ablation_results.csv
